@@ -73,15 +73,10 @@ export function Hero() {
             I craft enchanting visuals for brands, and conjure design resources
             to empower others.
           </p>
-          <div className="flex justify-center gap-2">
-            <Link href={"/dashboard"}>
+          <div className="flex justify-center">
+            <Link href="/workspace">
               <Button variant="default" size="lg">
                 Start Project
-              </Button>
-            </Link>
-            <Link href={"https://cal.com/aliimam/designali"} target="_blank">
-              <Button variant="outline" size="lg">
-                Book a call
               </Button>
             </Link>
           </div>
