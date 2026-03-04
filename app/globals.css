@@ -8,8 +8,28 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-ali: #6366f1;
+  --color-skin-base: var(--background);
+  --color-primary: var(--foreground);
+  --color-primary-foreground: var(--background);
+  --color-popover: var(--background);
+  --color-input: #e5e7eb;
+  --color-accent: #f3f4f6;
+  --color-accent-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --animate-fade-in: fade-in 0.6s ease-out forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
